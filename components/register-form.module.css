@@ -1,0 +1,59 @@
+.backgroundWrapper,
+.registerForm {
+  display: flex;
+  align-items: flex-start;
+}
+.registerForm {
+  width: 1271px;
+  background-color: var(--color-white);
+  max-width: 100%;
+  overflow: hidden;
+  padding: var(--padding-16) 396px;
+  box-sizing: border-box;
+  gap: var(--gap-24);
+  line-height: normal;
+  letter-spacing: normal;
+}
+.backgroundWrapper {
+  flex-direction: column;
+  padding: 433px var(--padding-0) var(--padding-0);
+}
+.background {
+  width: var(--width-8);
+  height: var(--height-8);
+  position: relative;
+  border-radius: var(--br-33554400);
+  background-color: var(--color-mediumseagreen);
+}
+@media screen and (max-width: 1200px) {
+  .registerForm {
+    padding-left: 198px;
+    padding-right: 198px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .registerForm {
+    padding-left: 99px;
+    padding-right: 99px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .registerForm {
+    padding-left: 99px;
+    padding-right: 99px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .registerForm {
+    padding-left: var(--padding-20);
+    padding-right: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .backgroundWrapper {
+    padding-top: 281px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,344 @@
+.loginFormPopup,
+.rectangle,
+.rectangleParent {
+  background-color: var(--color-white);
+  box-sizing: border-box;
+}
+.loginFormPopup {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: 98px 435px 98px 436px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--fs-14);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+.rectangle,
+.rectangleParent {
+  box-shadow: var(--shadow-drop);
+  border-radius: var(--br-20);
+  border: 1px solid var(--color-gray-300);
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-31) 23px var(--padding-31) var(--padding-32);
+  gap: var(--gap-24);
+}
+.rectangle {
+  width: 400px;
+  height: 641px;
+  position: relative;
+  display: none;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) 42px 8px 50px;
+  font-size: var(--fs-32);
+  color: var(--color-black);
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-8);
+}
+.welcomeBackWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-12) var(--padding-0) var(--padding-14);
+}
+.signInTo,
+.welcomeBack {
+  position: relative;
+  z-index: 1;
+}
+.welcomeBack {
+  margin: 0;
+  font-size: inherit;
+  line-height: var(--lh-48);
+  font-weight: 400;
+  font-family: inherit;
+}
+.signInTo {
+  font-size: var(--fs-16);
+  line-height: var(--lh-24);
+  color: var(--color-gray-200);
+}
+.emailPasswordContainer {
+  width: var(--width-334);
+  height: var(--height-77);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-8);
+  max-width: 100%;
+  text-align: left;
+  color: var(--color-black);
+}
+.password {
+  position: relative;
+  line-height: var(--lh-21);
+  z-index: 1;
+}
+.loginFormPopupRectangle,
+.rectangleGroup {
+  border-radius: var(--br-12);
+  background-color: var(--color-whitesmoke);
+  border: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleGroup {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-12) var(--padding-17) var(--padding-11)
+    var(--padding-15);
+  gap: var(--gap-20);
+  z-index: 1;
+}
+.loginFormPopupRectangle {
+  height: var(--height-48);
+  width: var(--width-334);
+  position: relative;
+  display: none;
+}
+.frameChild {
+  width: var(--width-calc100-52);
+  border: var(--border-2);
+  outline: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-1) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  font-family: var(--font-inter);
+  font-size: var(--fs-16);
+  color: var(--color-black);
+}
+.frameIcon {
+  height: var(--height-20);
+  width: var(--width-20);
+  position: relative;
+  z-index: 2;
+}
+.frameGroup {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-20);
+  text-align: left;
+}
+.frameContainer,
+.frameGroup,
+.frameInput {
+  display: flex;
+  align-items: flex-start;
+}
+.frameContainer {
+  gap: var(--gap-8);
+}
+.frameInput {
+  margin: 0;
+  height: var(--height-19);
+  width: var(--width-16);
+  flex-direction: column;
+  padding: var(--padding-3) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.forgotPassword {
+  position: relative;
+  line-height: var(--lh-21);
+  color: var(--color-black);
+  z-index: 1;
+}
+.rectangle2,
+.rectangleContainer {
+  border-radius: var(--br-62);
+  background-color: var(--color-black);
+  max-width: 100%;
+}
+.rectangleContainer {
+  cursor: pointer;
+  border: var(--border-2);
+  padding: var(--padding-15) 140px var(--padding-15) 142px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.rectangleContainer:hover {
+  background-color: var(--color-darkslategray);
+}
+.rectangle2 {
+  height: var(--height-54);
+  width: var(--width-334);
+  position: relative;
+  display: none;
+}
+.signIn {
+  position: relative;
+  font-size: var(--fs-16);
+  line-height: var(--lh-24);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 2;
+}
+.frameDiv,
+.loginFormPopupRectangleParent {
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) 109px var(--padding-0) 99px;
+}
+.loginFormPopupRectangleParent {
+  background-color: var(--color-white);
+  padding: var(--padding-0) 9px var(--padding-0) var(--padding-16);
+  z-index: 1;
+}
+.rectangle3 {
+  height: var(--height-21);
+  width: 135px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+}
+.orContinueWith {
+  width: 110px;
+  position: relative;
+  line-height: var(--lh-21);
+  display: inline-block;
+  z-index: 2;
+}
+.loginFormPopupFrameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.frameButton,
+.rectangle4,
+.rectangleParent2 {
+  border: 1px solid var(--color-gray-300);
+  background-color: var(--color-white);
+  border-radius: var(--br-12);
+}
+.frameButton {
+  cursor: pointer;
+  padding: var(--padding-12) var(--padding-69) var(--padding-12)
+    var(--padding-70);
+  display: flex;
+  align-items: flex-start;
+  z-index: 1;
+}
+.rectangle4,
+.rectangleParent2 {
+  height: var(--height-48);
+  box-sizing: border-box;
+}
+.rectangle4 {
+  width: var(--width-161);
+  position: relative;
+  display: none;
+}
+.rectangleParent2 {
+  cursor: pointer;
+  padding: var(--padding-12) var(--padding-69) var(--padding-12)
+    var(--padding-70);
+  display: flex;
+  align-items: flex-start;
+  z-index: 1;
+}
+.loginFormPopupFrameWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) 67px var(--padding-0) var(--padding-64);
+}
+.dontHaveAnAccountParent {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+}
+@media screen and (max-width: 1050px) {
+  .welcomeBack {
+    font-size: var(--fs-26);
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .loginFormPopup {
+    padding-left: 218px;
+    padding-right: 217px;
+    box-sizing: border-box;
+  }
+  .rectangleParent {
+    padding-top: var(--padding-20);
+    padding-bottom: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .welcomeBack {
+    font-size: var(--fs-26);
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .loginFormPopup {
+    padding-left: 218px;
+    padding-right: 217px;
+    box-sizing: border-box;
+  }
+  .rectangleParent {
+    padding-top: var(--padding-20);
+    padding-bottom: var(--padding-20);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameWrapper,
+  .loginFormPopup {
+    padding-left: var(--padding-20);
+    padding-right: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .welcomeBack {
+    font-size: var(--fs-19);
+    line-height: 29px;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .frameDiv,
+  .rectangleContainer {
+    padding-left: var(--padding-20);
+    padding-right: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .loginFormPopupFrameParent {
+    flex-wrap: wrap;
+  }
+  .loginFormPopupFrameWrapper {
+    padding-left: var(--padding-20);
+    padding-right: var(--padding-20);
+    box-sizing: border-box;
+  }
+}
