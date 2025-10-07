@@ -1,0 +1,199 @@
+.cart,
+.newsletterArea,
+.yourCart {
+  display: flex;
+  align-items: flex-start;
+}
+.cart {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-20);
+  line-height: normal;
+  letter-spacing: normal;
+}
+.newsletterArea,
+.yourCart {
+  align-self: stretch;
+  max-width: 100%;
+}
+.yourCart {
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--fs-32);
+  color: var(--color-white);
+  font-family: var(--font-integral-cf);
+}
+.newsletterArea {
+  padding: var(--padding-0) var(--padding-16);
+  box-sizing: border-box;
+  position: relative;
+}
+.stayUptoDateAboutOurLatesParent {
+  position: absolute;
+  top: 0;
+  left: 17px;
+  border-radius: var(--br-20);
+  background-color: var(--color-black);
+  width: 358px;
+  height: 293px;
+  overflow: hidden;
+}
+.stayUptoDate {
+  position: absolute;
+  top: 32px;
+  left: 24px;
+  line-height: 35px;
+  display: inline-block;
+  width: 297px;
+}
+.frameParent,
+.newsletterForm {
+  display: flex;
+  gap: var(--gap-12);
+}
+.newsletterForm {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+.frameParent {
+  position: absolute;
+  top: 169px;
+  left: calc(50% - 131.5px);
+  border-radius: var(--br-62);
+  background-color: var(--color-white);
+  width: 311px;
+  height: 42px;
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-12) var(--padding-16);
+  box-sizing: border-box;
+}
+.enterYourEmail,
+.frameIcon {
+  border: var(--border-2);
+  background-color: transparent;
+  position: relative;
+}
+.frameIcon {
+  cursor: pointer;
+  padding: var(--padding-0);
+  height: var(--height-20);
+  width: var(--width-20);
+}
+.enterYourEmail {
+  width: var(--width-calc100-52);
+  outline: 0;
+  font-family: var(--font-satoshi);
+  font-size: var(--fs-14);
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+}
+.subscribeToNewsletterWrapper {
+  cursor: pointer;
+  border: var(--border-2);
+  padding: var(--padding-12) var(--padding-16);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 223px;
+  left: 24px;
+  border-radius: var(--br-62);
+  width: 311px;
+  height: 42px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.subscribeToNewsletter {
+  position: relative;
+  font-size: var(--fs-14);
+  font-weight: 500;
+  font-family: var(--font-satoshi);
+  color: var(--color-black);
+  text-align: left;
+}
+.footer,
+.footerChild {
+  background-color: var(--color-whitesmoke);
+}
+.footer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 189.6px var(--padding-16) 77.3px;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-24);
+  max-width: 100%;
+  margin-top: -158px;
+  font-size: var(--fs-14);
+  color: var(--color-black);
+  font-family: var(--font-satoshi);
+}
+.footerChild {
+  position: absolute;
+  top: 135px;
+  left: calc(50% - 195px);
+  width: 392px;
+  height: 846px;
+}
+.frameGroup,
+.helpMenuParent {
+  display: flex;
+  align-items: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: var(--padding-0) var(--padding-19) var(--padding-16) var(--padding-0);
+  position: relative;
+  gap: var(--gap-20);
+}
+.helpMenuParent {
+  position: absolute;
+  top: 641px;
+  left: 17px;
+  flex-direction: column;
+  gap: var(--gap-16);
+}
+.helpMenu {
+  position: relative;
+  letter-spacing: var(--ls-3);
+  line-height: var(--lh-18);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.aboutFeaturesWorksContainer {
+  width: var(--width-121);
+  position: relative;
+  line-height: var(--lh-16);
+  color: var(--color-gray-200);
+  display: inline-block;
+}
+.account {
+  margin: 0;
+}
+.helpMenuGroup {
+  position: absolute;
+  top: 641px;
+  left: 197px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-16);
+}
+.cartAboutFeaturesWorksContainer {
+  width: 159px;
+  position: relative;
+  line-height: var(--lh-16);
+  color: var(--color-gray-200);
+  display: inline-block;
+}

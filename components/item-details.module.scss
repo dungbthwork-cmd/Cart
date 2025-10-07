@@ -1,0 +1,107 @@
+.itemDetails {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: var(--gap-16);
+  text-align: left;
+  font-size: var(--fs-20);
+  color: var(--color-black);
+  font-family: var(--font-satoshi);
+}
+.itemDetailsChild {
+  height: var(--height-124);
+  width: 124px;
+  position: relative;
+  border-radius: var(--br-8_7);
+  object-fit: cover;
+}
+.itemNamesParent {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-0);
+}
+.itemName,
+.itemNames {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.itemNames {
+  height: 118px;
+  justify-content: space-between;
+  gap: var(--gap-0);
+}
+.itemName {
+  gap: var(--gap-2);
+}
+.gradientGraphicTShirt {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.sizeLargeParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-4);
+  font-size: var(--fs-14);
+}
+.sizeLarge {
+  position: relative;
+}
+.large {
+  color: var(--color-gray-200);
+}
+.h3 {
+  margin: 0;
+  position: relative;
+  font-size: var(--fs-24);
+  font-weight: 700;
+  font-family: inherit;
+}
+.itemButtonsParent {
+  width: 225px;
+  height: var(--height-124);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-0);
+  font-size: var(--fs-14);
+}
+.itemButtonsIcon {
+  cursor: pointer;
+  border: var(--border-2);
+  padding: var(--padding-0);
+  background-color: transparent;
+  width: var(--width-24);
+  height: var(--height-24);
+  position: relative;
+}
+.itemButtons {
+  border-radius: var(--br-62);
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-12) var(--padding-20);
+  gap: var(--gap-20);
+}
+.itemDetailsItemButtonsIcon {
+  cursor: pointer;
+  border: var(--border-2);
+  padding: var(--padding-0);
+  background-color: transparent;
+  height: var(--height-20);
+  width: var(--width-20);
+  position: relative;
+}
+.div {
+  position: relative;
+  font-weight: 500;
+}

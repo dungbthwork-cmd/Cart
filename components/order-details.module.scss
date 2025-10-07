@@ -1,0 +1,174 @@
+.orderDetails,
+.summaryDetails {
+  align-self: stretch;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.orderDetails {
+  height: 420px;
+  padding: var(--padding-0) var(--padding-16) var(--padding-30);
+  text-align: left;
+  font-size: var(--fs-20);
+  color: var(--color-black);
+  font-family: var(--font-satoshi);
+}
+.summaryDetails {
+  flex: 1;
+  border-radius: var(--br-20);
+  border: 1px solid var(--color-gray-300);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-18) var(--padding-19);
+  gap: var(--gap-16);
+}
+.orderSummary {
+  margin: 0;
+  height: 27px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.orderDetails2 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-20);
+  font-size: var(--fs-16);
+  color: var(--color-gray-200);
+}
+.priceBreakdown {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-0);
+}
+.b,
+.priceValues,
+.subtotal {
+  position: relative;
+}
+.b,
+.priceValues {
+  color: var(--color-black);
+  text-align: right;
+}
+.b {
+  color: var(--color-tomato);
+}
+.orderDetailsChild {
+  align-self: stretch;
+  position: relative;
+  border-top: var(--border-1);
+  box-sizing: border-box;
+  height: var(--height-1);
+}
+.summaryItems {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-0);
+  color: var(--color-black);
+}
+.promoCode {
+  margin: 0;
+  position: relative;
+  font-size: var(--fs-20);
+  font-weight: 700;
+  font-family: inherit;
+  text-align: right;
+}
+.orderDetailsPromoCode {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: var(--gap-12);
+}
+.promoInput {
+  height: var(--height-48);
+  flex: 1;
+  border-radius: var(--br-62);
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: var(--padding-12) var(--padding-16);
+  box-sizing: border-box;
+  gap: var(--gap-10);
+  min-width: 125px;
+}
+.promoCodeField {
+  height: var(--height-20);
+  width: var(--width-20);
+  position: relative;
+}
+.addPromoCode {
+  width: var(--width-calc100-52);
+  border: var(--border-2);
+  outline: 0;
+  font-family: var(--font-satoshi);
+  font-size: var(--fs-14);
+  background-color: transparent;
+  position: relative;
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 63px;
+  padding: var(--padding-0);
+}
+.applyButton {
+  cursor: pointer;
+  border: var(--border-2);
+  padding: var(--padding-12) var(--padding-16);
+  background-color: var(--color-black);
+  height: var(--height-48);
+  width: 88px;
+  border-radius: var(--br-62);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.apply {
+  position: relative;
+  font-size: var(--fs-14);
+  font-weight: 500;
+  font-family: var(--font-satoshi);
+  color: var(--color-white);
+  text-align: left;
+}
+.checkoutButton {
+  cursor: pointer;
+  border: var(--border-2);
+  padding: var(--padding-16) 54px;
+  background-color: var(--color-black);
+  align-self: stretch;
+  height: var(--height-54);
+  border-radius: var(--br-62);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: var(--gap-12);
+}
+.arrowDownBold1Icon {
+  width: var(--width-20);
+  position: relative;
+  height: var(--height-20);
+  object-fit: contain;
+}
